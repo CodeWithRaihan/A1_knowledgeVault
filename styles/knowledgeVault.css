@@ -91,3 +91,68 @@
       justify-content: center;
       gap: 16px;
 }
+/*  Notes dont't fail section s1 start  */
+
+.Notes_dont_fail_s1{
+     
+     height: 616px;
+     margin: 0px 120px;
+
+}
+.section1_titel_text{
+     font-weight: bold;
+     font-size: 3rem;
+}
+.section1_sub-titel_text{
+     font-weight: 400;
+     font-size: 1rem;
+     color: rgba(98, 115, 130, 1);
+}
+.card_container{
+    height: 300px;
+    max-width: 1360px;
+    margin-top: 44px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    gap: 24px;
+    
+    
+}
+.card{
+    height: 300px;
+    width: 320px;
+    text-align: center;
+    border: 1px solid;  
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ffffff;
+
+}
+.img_box{
+     
+     height: 50px;
+     width: 50px;
+     border: 1px solid;
+     background-color:#f95555 ;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.card_titel_text{
+     margin-top: 16px;
+     margin-bottom: 0px;
+     font-weight:600;
+     font-size: 2rem;
+}
+.card_sub_titel_text{
+     margin-top: 16px;
+     font-weight: 400;
+     font-size: 1rem;
+     color: rgba(98, 115, 130, 1);
+}
