@@ -20,6 +20,10 @@
     .text_center{
         text-align: center;
     }
+    /* color white  */
+.white_color{
+      color: #f7f6f2;
+}
 /* Nav bar styles */
 .nav_bar{
       display: flex;
@@ -224,4 +228,33 @@
 }
 .second_line_subtitel{
       margin-top: 0px;
+}
+/* footer section start */
+.footer{
+      
+      background-color:rgb(0,25,49) ;
+}
+.footer_main-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 80px;
+      padding: 120px;
+}
+.footer_main-container{
+      max-width: 1300px;
+      height: 348px;
+}
+.footer_firstpart_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+      
+}
+.footer_ent_titel{
+      color: #f7f6f2;
+}
+.fa-brands{
+      margin-right: 10px;
 }
