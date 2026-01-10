@@ -171,8 +171,10 @@
 .section2_title_text{
       font-weight: 700;
       font-size: 3rem;
+      margin-bottom: 0px;
 }
 .section2_text{
+      margin-top: 16px;
       font-weight: 400;
       font-size: 1rem;
       color:  rgba(98, 115, 130, 1);
@@ -185,6 +187,41 @@
       align-items: center;
       gap:6px;
       font-weight: 500;
+      font-size: 1rem; 
+}
+/* Ready to think more section s3 */
+.ready_to_think_section_s3{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      
+}
+.section_3_container{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-direction: column;
+     height: 384px;
+     width: 1360px;
+     background-color: #f7f6f2;
+}
+.section3_titel_text{ 
+      font-weight: 700;
+      font-size: 2.5rem;
+}
+.section3_subtitel_text{
+      font-weight: 400;
       font-size: 1rem;
-     
+      color: rgba(98, 115, 130, 1) ;
+}
+.section3_endtitel_text{
+       font-weight: 400;
+      font-size: 1rem;
+      color: rgba(98, 115, 130, 1)
+}
+.first_line_subtitel{
+      margin-bottom: 0px;
+}
+.second_line_subtitel{
+      margin-top: 0px;
 }
